@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>星辰科技 - 智能家居</title>
+  <meta name="description" content="星辰科技 — 让家更懂你。智能灯泡、摄像头、门锁等智能家居解决方案。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">★</div>
+        <div class="brand-text">
+          <h1>星辰科技</h1>
+          <p class="tagline">让家更懂你</p>
+        </div>
+      </div>
+
+      <button class="nav-toggle" aria-expanded="false" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#home" class="nav-link">首页</a>
+        <a href="#about" class="nav-link">关于我们</a>
+        <a href="#products" class="nav-link">产品</a>
+        <a href="#contact" class="nav-link">联系我们</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO / Carousel -->
+    <section id="home" class="hero">
+      <div class="carousel" aria-roledescription="carousel">
+        <div class="slides">
+          <figure class="slide active">
+            <img src="https://via.placeholder.com/1600x700/06264b/ffffff?text=智能家居+场景+1" alt="智能家居场景1">
+            <figcaption>
+              <h2>让家更懂你</h2>
+              <p>星辰科技 — 智能灯光、安防与门控的整合方案</p>
+            </figcaption>
+          </figure>
+          <figure class="slide">
+            <img src="https://via.placeholder.com/1600x700/072a5a/ffffff?text=智能家居+场景+2" alt="智能家居场景2">
+            <figcaption>
+              <h2>静谧与安全的平衡</h2>
+              <p>全天候守护，智能感知每一个细节</p>
+            </figcaption>
+          </figure>
+          <figure class="slide">
+            <img src="https://via.placeholder.com/1600x700/083066/ffffff?text=智能家居+场景+3" alt="智能家居场景3">
+            <figcaption>
+              <h2>更懂你的生活方式</h2>
+              <p>通过场景联动，让家成为贴心助手</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="carousel-controls">
+          <button class="prev" aria-label="上一张">‹</button>
+          <div class="indicators" role="tablist" aria-label="轮播指示点"></div>
+          <button class="next" aria-label="下一张">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about container">
+      <h2>关于我们</h2>
+      <p class="about-text">星辰科技专注于智能家居硬件与系统集成，致力于通过更友好的交互与更可靠的设备，让每一位用户的家变得更智能、更安心。</p>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="products container">
+      <h2>产品</h2>
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="https://via.placeholder.com/400x300/0b3a6b/ffffff?text=智能灯泡" alt="智能灯泡">
+          <div class="product-body">
+            <h3>智能灯泡</h3>
+            <p class="price">¥129</p>
+            <p class="product-desc">可调色温与亮度，支持APP与语音控制，场景联动。</p>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="https://via.placeholder.com/400x300/0b3a6b/ffffff?text=智能摄像头" alt="智能摄像头">
+          <div class="product-body">
+            <h3>智能摄像头</h3>
+            <p class="price">¥399</p>
+            <p class="product-desc">1080p/夜视/移动侦测与云端回放，隐私模式一键开启。</p>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="https://via.placeholder.com/400x300/0b3a6b/ffffff?text=智能门锁" alt="智能门锁">
+          <div class="product-body">
+            <h3>智能门锁</h3>
+            <p class="price">¥699</p>
+            <p class="product-desc">指纹+密码+临时密码，远程授权与开门记录。</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact container">
+      <h2>联系我们</h2>
+      <div class="contact-grid">
+        <form id="contactForm" class="contact-form" novalidate>
+          <label>
+            姓名
+            <input type="text" name="name" id="name" required placeholder="请输入姓名">
+          </label>
+          <label>
+            电话
+            <input type="tel" name="phone" id="phone" required placeholder="请输入手机号">
+          </label>
+          <label>
+            留言
+            <textarea name="message" id="message" rows="5" placeholder="请输入您的需求或留言"></textarea>
+          </label>
+          <button type="submit" class="btn primary">发送</button>
+          <p class="form-note">我们会在1个工作日内与您联系。</p>
+        </form>
+
+        <div class="contact-info">
+          <h3>公司信息</h3>
+          <p>地址：北京市朝阳区星辰大厦 10F</p>
+          <p>电话：+86 10-1234-5678</p>
+          <h4>工作时间</h4>
+          <p>周一至周五 09:00 - 18:00</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> 星辰科技 • 让家更懂你</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
